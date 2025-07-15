@@ -13,7 +13,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 const baseUrl =
-  process.env.NEXT_PUBLIC_BASE_URL || "https://abdulrehman-code.vercel.app";
+  process.env.NEXT_PUBLIC_BASE_URL || "https://waleedwaseem.netlify.app/";
 console.log(process.env.NEXT_PUBLIC_BASE_URL);
 
 export const metadata: Metadata = {
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     title: "Waleed Waseem Waseem | Full Stack Developer",
     description: "Full Stack Developer specializing in modern web technologies",
     images: [`${baseUrl}/api/twitter`],
-    creator: "@abdulrehmn_code",
+    creator: "@waleedwaseem",
   },
   icons: {
     other: [
@@ -151,7 +151,6 @@ export default function RootLayout({
               sameAs: [
                 "https://github.com/waleedwaseem",
                 "https://pk.linkedin.com/in/waleedwaseem",
-                "https://x.com/abdulrehmn_code",
               ],
               jobTitle: "Full Stack Developer",
               worksFor: {

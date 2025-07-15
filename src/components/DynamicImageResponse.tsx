@@ -29,7 +29,7 @@ const DynamicImageResponse = () => {
           border: "3px solid #fca311",
         }}
       >
-        <div style={{ fontSize: "36px", color: "#fca311" }}>AR</div>
+        <div style={{ fontSize: "36px", color: "#fca311" }}>WW</div>
       </div>
       <h1
         style={{
