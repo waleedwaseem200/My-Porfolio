@@ -40,7 +40,7 @@ const DynamicImageResponse = () => {
           textAlign: "center",
         }}
       >
-        Waleed Waseem Waseem
+        Waleed Waseem
       </h1>
       <h2
         style={{

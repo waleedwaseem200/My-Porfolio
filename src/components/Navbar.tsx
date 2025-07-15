@@ -81,7 +81,7 @@ const Navbar = () => {
               ))}
               <div className="w-px h-6 mx-2 bg-primary/20" />
               <a
-                href="https://github.com/waleedwaseem"
+                href="https://github.com/waleedwaseem200"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
@@ -90,7 +90,7 @@ const Navbar = () => {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com/in/waleedwaseem"
+                href="https://linkedin.com/in/waleed-rajput"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"

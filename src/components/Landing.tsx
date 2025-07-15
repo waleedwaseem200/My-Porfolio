@@ -96,8 +96,8 @@ const Landing = () => {
               <span>View Projects</span>
             </a>
             <a
-              href="/docs/abdul-rehman-cv.pdf"
-              download="abdul-rehman-cv.pdf"
+              href="/docs/waleed-waseem-cv.pdf"
+              download="waleed-waseem-cv.pdf"
               className="flex items-center gap-2 bg-transparent border btn border-primary text-primary hover:bg-primary hover:text-background transition-all duration-200 hover:scale-105 active:scale-95 hover:shadow-[0_0_10px_rgba(59,130,246,0.3)]"
               onClick={() => {
                 const trackDownload = () => {

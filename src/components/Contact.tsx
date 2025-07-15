@@ -61,7 +61,7 @@ const Contact = () => {
     {
       icon: <MapPin className="w-5 h-5 text-primary" />,
       title: "Location",
-      value: "Hyderabad, Sindh, Pakistan",
+      value: "Karachi, Sindh, Pakistan",
       link: null,
     },
     {
@@ -76,14 +76,14 @@ const Contact = () => {
     {
       platform: "GitHub",
       icon: <GitHub className="w-5 h-5" />,
-      link: "https://github.com/waleedwaseem",
-      username: "waleedwaseem",
+      link: "https://github.com/waleedwaseem200",
+      username: "waleedwaseem200",
     },
     {
       platform: "LinkedIn",
       icon: <Linkedin className="w-5 h-5" />,
-      link: "https://linkedin.com/in/waleedwaseem",
-      username: "waleedwaseem",
+      link: "https://pk.linkedin.com/in/waleed-rajput",
+      username: "waleed-rajput",
     },
   ];
 

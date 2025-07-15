@@ -1,11 +1,5 @@
 import { motion } from "framer-motion";
-import {
-  ChevronLeft,
-  ChevronRight,
-  Code,
-  ExternalLink,
-  Github,
-} from "lucide-react";
+import { ChevronLeft, ChevronRight, Code, ExternalLink } from "lucide-react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { projects } from "../data/projects";
@@ -133,7 +127,7 @@ const Projects = () => {
             </div>
             {/* Links */}
             <div className="flex gap-4 mt-6">
-              <a
+              {/* <a
                 href={projects[current].githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -141,7 +135,7 @@ const Projects = () => {
               >
                 <Github className="w-5 h-5" />
                 Code
-              </a>
+              </a> */}
               {projects[current].demoUrl && (
                 <a
                   href={projects[current].demoUrl}
@@ -183,7 +177,7 @@ const Projects = () => {
           className="mt-12 text-center"
         >
           <a
-            href="https://github.com/waleedwaseem"
+            href="https://github.com/waleedwaseem200"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center mx-auto btn w-fit"
